@@ -1,179 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Quicksand:wght@600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Quicksand:wght@600&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        *{
-            margin:0px;
-            padding:0px;
-        }
-        body{
-            font-family: 'Roboto', sans-serif;
-            background:rgb(145, 204, 244);
-        }
-        .container{
-            margin-top:5rem;
-            margin-right: 2rem;
-            margin-left:2rem;
-            background-color: rgb(36, 35, 35);
-            padding-top:1rem;
-            padding-bottom:1rem;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-        .navBar{
-            display:flex;
-            justify-content: space-between;
-            align-items:center;
-        }
-        .list{
-            display:flex;
-        }
-        ul{
-            list-style: none;
-        }
-        .leftBrandName{
-            color:white;
-            margin-left:5rem;
-            margin-right:8rem;
-        }
-        li{
-            color:grey;
-            padding-right:3rem;
-            font-size: 18px;
-        }
-        .leftButton{
-            border:none;
-            background:rgb(25, 158, 248);
-            padding:.7rem;
-            border-radius:20px;
-            color:white;
-            width:8rem;
-            margin-right:5rem;
-            margin-left:8rem;
-        }
-        .middleContainer{
-            margin:0rem 2rem 0rem 2rem;
-            background:black;
-            margin-top:5rem;
-            padding:1rem 0rem 1rem 0rem;
-            align-items:center;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-        .middleNavBar{
-            display:flex;
-            flex-direction:row-reverse;
-        }
-        .middleBrandName{
-            margin-right:2rem;
-            color:white;
-        }
-        .middleList{
-            display:flex;
-            align-items:center;
-            margin-right:25rem;
-        }
-        .middleButton{
-            border:none;
-            background:rgb(25, 158, 248);
-            padding:.7rem;
-            border-radius:2rem;
-            color:white;
-            width:8rem;
-            margin-right:3rem;   
-        }
-        .rightContainer{
-            background-color: black;
-            margin:5rem 2rem 0rem 2rem;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-        .rightNavBar{
-            display:flex;
-            justify-content:space-around;
-            padding:1rem 0rem 1rem 0rem;
-            
-        }
-        .rightBrandName{
-            margin-right: 15rem;
-            color:white;
-        }
-        .rightList{
-            display:flex;
-            align-items: center;
-        }
-        .rightButton{
-            border:none;
-            background:rgb(25, 158, 248);
-            padding:.7rem;
-            border-radius:20px;
-            color:white;
-            width:8rem;
-        }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+        background: rgb(145, 204, 244);
+      }
+      .container {
+        margin-top: 5rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        background-color: rgb(36, 35, 35);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .navBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .list {
+        display: flex;
+      }
+
+      ul {
+        list-style: none;
+      } 
+
+      .leftBrandName {
+        color: white;
+        margin-left: 5rem;
+        margin-right: 8rem;
+      }
+      
+      li {
+        color: grey;
+        padding-right: 3rem;
+        font-size: 18px;
+      }
+      .leftButton {
+        border: none;
+        background: rgb(25, 158, 248);
+        padding: 0.7rem;
+        border-radius: 20px;
+        color: white;
+        width: 8rem;
+        margin-right: 5rem;
+        margin-left: 8rem;
+      }
+      .middleContainer {
+        margin: 0rem 2rem 0rem 2rem;
+        background: black;
+        margin-top: 5rem;
+        padding: 1rem 0rem 1rem 0rem;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .middleNavBar {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .middleBrandName {
+        margin-right: 2rem;
+        color: white;
+      }
+      .middleList {
+        display: flex;
+        align-items: center;
+        margin-right: 25rem;
+      }
+      .middleButton {
+        border: none;
+        background: rgb(25, 158, 248);
+        padding: 0.7rem;
+        border-radius: 2rem;
+        color: white;
+        width: 8rem;
+        margin-right: 3rem;
+      }
+      .rightContainer {
+        background-color: black;
+        margin: 5rem 2rem 0rem 2rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .rightNavBar {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem 0rem 1rem 0rem;
+      }
+      .rightBrandName {
+        margin-right: 15rem;
+        color: white;
+      }
+      .rightList {
+        display: flex;
+        align-items: center;
+      }
+      .rightButton {
+        border: none;
+        background: rgb(25, 158, 248);
+        padding: 0.7rem;
+        border-radius: 20px;
+        color: white;
+        width: 8rem;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <ul  class="navBar">
-            <li>
-                <h1 class="leftBrandName">LogoBakery</h1>
-            </li>
-            <div class="list">
-            <li>
-                Services
-            </li>
-            <li>
-                Projects
-            </li>
-            <li>
-                About
-            </li>
-            </div>
-            <button class="leftButton">Contact</button>
-        </ul>
+      <ul class="navBar">
+        <li>
+          <h1 class="leftBrandName">LogoBakery</h1>
+        </li>
+        <div class="list">
+          <li>Services</li>
+          <li>Projects</li>
+          <li>About</li>
+        </div>
+        <button class="leftButton">Contact</button>
+      </ul>
     </div>
     <div class="middleContainer">
-        <ul  class="middleNavBar">
-            <li>
-                <h1 class="middleBrandName">LogoBakery</h1>
-            </li>
-            <div class="middleList">
-            <li>
-                Services
-            </li>
-            <li>
-                Projects
-            </li>
-            <li>
-                About
-            </li>
-            <button class="middleButton">Contact</button>
+      <ul class="middleNavBar">
+        <li>
+          <h1 class="middleBrandName">LogoBakery</h1>
+        </li>
+        <div class="middleList">
+          <li>Services</li>
+          <li>Projects</li>
+          <li>About</li>
+          <button class="middleButton">Contact</button>
         </div>
-        </ul>
+      </ul>
     </div>
     <div class="rightContainer">
-        <ul  class="rightNavBar">
-            <li>
-                <h1 class="rightBrandName">LogoBakery</h1>
-            </li>
-            <div class="rightList">
-            <li>
-                Services
-            </li>
-            <li>
-                Projects
-            </li>
-            <li>
-                About
-            </li>
-            <button class="rightButton">Contact</button>
+      <ul class="rightNavBar">
+        <li>
+          <h1 class="rightBrandName">LogoBakery</h1>
+        </li>
+        <div class="rightList">
+          <li>Services</li>
+          <li>Projects</li>
+          <li>About</li>
+          <button class="rightButton">Contact</button>
         </div>
-        </ul>
+      </ul>
     </div>
-</body>
+  </body>
 </html>
